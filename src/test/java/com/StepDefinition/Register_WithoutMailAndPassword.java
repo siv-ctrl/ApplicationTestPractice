@@ -40,8 +40,9 @@ public class Register_WithoutMailAndPassword extends WrapperClass {
 		reg.enterPassword("");
 	}
 	@Then("^click on register button$")
-	public void click_on_register_button() {
+	public void click_on_register_button() throws InterruptedException {
 		reg.clickRegister();
+		Thread.sleep(1000);
 		reg.showError();
 	}
 	@Then("^close the chrome app$")

@@ -28,15 +28,19 @@ public class Applyingcoupon {
 		PageFactory.initElements(driver, this);		
 	}
 	public void goToShop() {
+		//click shop page
 		shop.click();
 	}
 	public void selectJavascript() {
+		//click on javascript in shop page
 		javascript.click();
 	}
 	public void addFunctionJS() {
+		//addFunctionJS into cart
 		functionalJS.click();
 	}
 	public void  clickViewBasket() {
+		//view basket
 		viewbasket.click();
 		}
 	public void  enterCoupon() {
